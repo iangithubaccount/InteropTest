@@ -7,7 +7,7 @@ namespace InteropTest
 {
     public partial class MainWindow : Window
     {
-        [DllImport("C:\\Users\\chris\\source\\repos\\NthPrimeNumber\\x64\\Debug\\NthPrimeNumber.dll")]
+        [DllImport("DLL path")]
         static extern uint NthPrimeNumber(uint n);
         public MainWindow()
         {
